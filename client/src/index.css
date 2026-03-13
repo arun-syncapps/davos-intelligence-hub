@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wef-blue: #1864d7;
+  --color-wef-dark: #121212;
+  --color-wef-gray: #f5f6f8;
+  --color-wef-border: #e0e4e8;
+  
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-wef-gray text-wef-dark font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans;
+  }
+}
