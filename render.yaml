@@ -2,7 +2,7 @@ services:
   - type: web
     name: davos-intelligence-hub
     runtime: node
-    plan: free
+    plan: starter
     buildCommand: npm run build
     startCommand: npm start
     envVars:
